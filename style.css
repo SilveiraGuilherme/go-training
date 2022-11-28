@@ -76,6 +76,12 @@ footer {
   font-weight: 800;
   color: #f9faf8;
 }
+#header-selected {
+  font-weight: 800;
+}
+#header-selected:hover {
+  transform: none;
+}
 
 .hero-content {
   display: flex;
@@ -106,8 +112,7 @@ footer {
   color: #f9faf8;
 }
 .hero p,
-header li,
-.hero form {
+header li {
   font-size: 18px;
   color: #e5e7eb;
   font-weight: normal;
@@ -116,12 +121,15 @@ header li,
   display: flex;
   flex-direction: column;
   width: 60%;
+  color: #e5e7eb;
 }
 .hero input {
   color: black;
   height: 2em;
   margin-bottom: 5px;
+  padding-left: 5px;
   font-family: sans-serif;
+  width: 100%;
 }
 .hero-signup {
   display: flex;
@@ -377,7 +385,6 @@ footer p {
   .list-plans {
     flex-direction: column;
     align-items: center;
-    height: ;
   }
   .quote {
     height: 50vh;
@@ -389,7 +396,7 @@ footer p {
     font-size: 15px;
   }
   footer {
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     height: 15vh;
     gap: 10px;

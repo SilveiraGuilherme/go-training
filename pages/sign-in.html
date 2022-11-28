@@ -16,7 +16,10 @@
               <li id="header-logo"><a href="../index.html">Go Training</a></li>
               <li><a href="plans.html">Plans</a></li>
               <li><a href="products.html">Products</a></li>
-              <li><a href="sign-in.html">Sign In</a></li>
+              <li><a href="sign-up.html">Sign Up</a></li>
+              <li>
+                <a id="header-selected" href="sign-in.html">Sign In</a>
+              </li>
             </ul>
           </nav>
         </header>
@@ -25,16 +28,19 @@
             <h1>Welcome back</h1>
             <form>
               <label for="username">Username</label>
-              <input type="text" id="username" />
+              <input type="text" id="username" name="username" />
               <label for="password">Password</label>
-              <input type="password" id="password" />
+              <input type="password" id="password" name="password" />
+              <label for="password"
+                ><a href="#">Forgot your password?</a></label
+              >
             </form>
             <ul class="hero-signup">
               <li class="button">
                 <a href="sign-in-success.html">Sign in</a>
               </li>
               <li>
-                <a href="#">Forgot your password?</a>
+                <a href="sign-up.html">Not a member?</a>
               </li>
             </ul>
           </div>
