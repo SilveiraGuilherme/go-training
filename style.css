@@ -338,14 +338,21 @@ footer p {
   }
   .hero h1 {
     font-size: 24px;
+    align-self: flex-start;
   }
   .hero p,
   .hero li,
   .hero form {
     font-size: 12px;
   }
+  .hero form {
+    width: 100%;
+  }
   #header-logo {
     font-size: 15px;
+  }
+  .hero-content > div {
+    align-items: center;
   }
   .categories {
     height: 100vh;
