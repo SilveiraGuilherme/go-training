@@ -24,6 +24,7 @@
   font-family: "Roboto", sans-serif;
 }
 
+header,
 .hero,
 .categories,
 .quote,
@@ -33,41 +34,20 @@ footer {
   padding: 0 15%;
 }
 .hero,
+header,
 footer {
   background-color: #1f2937;
 }
-.hero,
-.categories {
-  flex-direction: column;
-}
-
-.hero {
-  height: 75vh;
-}
-.hero header {
-  display: flex;
-  flex: 1;
-  align-items: center;
-}
-.hero header nav {
-  display: flex;
-  width: 100%;
-}
-.hero header ul {
-  display: flex;
-  justify-content: end;
-  width: 100%;
-  gap: 20px;
-}
-.hero header li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .button:hover,
-.hero header a:hover,
+header a:hover,
 .categories figure:hover {
   transform: scale(1.1, 1.1);
+}
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
 }
 #header-logo {
   flex: 1;
@@ -75,47 +55,59 @@ footer {
   font-size: 24px;
   font-weight: 800;
   color: #f9faf8;
+  min-width: fit-content;
 }
-#header-selected {
+nav {
+  display: flex;
+  width: 100%;
+}
+menu {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  gap: 20px;
+}
+menu li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: normal;
+}
+#menu-selected {
   font-weight: 800;
 }
-#header-selected:hover {
+#menu-selected:hover {
   transform: none;
 }
 
-.hero-content {
-  display: flex;
+.hero {
+  height: 70vh;
   justify-content: space-between;
-  flex: 9;
   gap: 10px;
 }
-.hero-content > div {
+aside {
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  flex: 1;
   gap: 10px;
-}
-.hero-content figure {
-  display: flex;
-  align-items: center;
-  flex: 1;
-}
-.hero-content img {
-  width: 100%;
-  height: auto;
 }
 .hero h1 {
   font-size: 48px;
   font-weight: 800;
   color: #f9faf8;
 }
-.hero p,
-header li {
+.hero p {
   font-size: 18px;
   color: #e5e7eb;
   font-weight: normal;
+}
+.hero em {
+  font-style: normal;
+  font-weight: bold;
 }
 .hero form {
   display: flex;
@@ -153,23 +145,28 @@ header li {
   font-weight: bold;
   text-align: center;
 }
-
-.categories {
-  align-items: center;
-  justify-content: space-evenly;
-  height: 65vh;
-}
-.categories header {
+.hero > div {
   flex: 1;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding-top: 5%;
+}
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.categories {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 55vh;
 }
 .categories h2 {
   font-size: 36px;
   font-weight: 800;
   color: #1f2937;
+  margin: 1em 0;
+  text-align: center;
 }
 .categories ul {
   flex: 3;
@@ -199,7 +196,9 @@ header li {
   border: 3px solid #3882f6;
   border-radius: 10px;
 }
-
+.plans-container {
+  height: 70vh;
+}
 .list-plans {
   display: flex;
   align-items: flex-end;
@@ -207,13 +206,11 @@ header li {
   width: 100%;
   margin-bottom: 10%;
 }
-
 .item-plan {
   border: 3px solid #3882f6;
   border-radius: 10px;
   padding: 10px;
 }
-
 .item-plan h3 {
   font-size: 24px;
   color: #1f2937;
@@ -222,7 +219,6 @@ header li {
   text-align: center;
   margin-top: 10px;
 }
-
 .item-plan h3::after {
   content: "";
   background-color: #3882f6;
@@ -230,13 +226,11 @@ header li {
   height: 3px;
   margin-top: 15px;
 }
-
 .item-plan ul {
   padding: 10px 20px;
   flex-direction: column;
   margin-bottom: 10px;
 }
-
 .item-plan ul li::before {
   content: "";
   width: 10px;
@@ -246,24 +240,20 @@ header li {
 }
 
 .quote {
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   background-color: #e5e7eb;
   height: 60vh;
 }
-.quote p {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-}
-.quote q {
+blockquote p {
   font-size: 36px;
   font-style: italic;
   font-weight: 300;
   color: #1f2937;
 }
-.quote span {
-  text-align: end;
+cite {
+  align-self: flex-end;
   font-size: 24px;
   font-weight: bold;
   color: #1f2937;
@@ -292,6 +282,7 @@ header li {
   border: 2px solid #f9faf8;
   border-radius: 5px;
 }
+
 footer {
   display: flex;
   justify-content: space-around;
@@ -323,7 +314,7 @@ footer p {
 }
 
 @media (max-width: 920px) {
-  .hero-content figure {
+  .hero > div {
     display: none;
   }
   .button {
@@ -341,6 +332,14 @@ footer p {
 }
 
 @media (max-width: 600px) {
+  menu li,
+  .hero p,
+  .hero form {
+    font-size: 12px;
+  }
+  #header-logo {
+    font-size: 15px;
+  }
   .hero {
     height: 50vh;
   }
@@ -348,18 +347,10 @@ footer p {
     font-size: 24px;
     align-self: flex-start;
   }
-  .hero p,
-  .hero li,
-  .hero form {
-    font-size: 12px;
-  }
   .hero form {
     width: 100%;
   }
-  #header-logo {
-    font-size: 15px;
-  }
-  .hero-content > div {
+  aside {
     align-items: center;
   }
   .categories {
