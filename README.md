@@ -8,14 +8,13 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <br />
 <br />
 
   <a href="https://silveiraguilherme.github.io/go-training/index.html">
-    <img src="./images/logos/go-training-logo" width="300px" alt="Go Training logo">
+    <img src="./images/logos/go-training-logo.png" width="300px" alt="Go Training logo">
   </a>
 
   <p align="center">
@@ -41,7 +40,6 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#requirements">Requirements</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -60,19 +58,16 @@
 
 ## About The Project
 
-[![Alt text](./public/img/flash-cards-website.png)](https://silveiraguilherme.github.io/go-training/index.html)
+[![Alt text](./images/go-training-website.png)](https://silveiraguilherme.github.io/go-training/index.html)
 
 <!-- WEBSITE DESCRIPTION -->
 
-Flash Cards App is a web application that allows users to add, edit and remove flash cards containing information of their preference. It can be very usefull for studying purposes.
+This is a fictitious gym's website called Go Training.
 
 ### Built With
 
-- <strong>React</strong> for UI building.
-- <strong>Axios</strong> for HTTP requests.
-- <strong>Node.js</strong> for server-side programming.
-- <strong>Tailwind</strong> for UI styling.
-- <strong>JavaScript, HTML, CSS</strong> as a general stack to build web applications.
+- <strong>HTML5</strong> as a general stack to build web applications.
+- <strong>CSS3</strong> for UI styling.
 
 <!-- GETTING STARTED -->
 
@@ -80,36 +75,25 @@ Flash Cards App is a web application that allows users to add, edit and remove f
 
 To get and run a local copy of this project follow the instructions below.
 
-### Requirements
-
-The application only works locally on previous Node versions. This one was made on v16.11.0.
-
 ### Installation
 
 1. Clone the repo
    ```sh
    git clone https://github.com/SilveiraGuilherme/go-training.git
    ```
-2. Install packages
-   ```sh
-   yarn
-   ```
-3. Run the backend inside the folder 'backend'
-   ```sh
-   yarn server
-   ```
-4. Run the project locally
-   ```sh
-   yarn dev
-   ```
+2. Run the project locally with Live Server
 
 <!-- ROADMAP -->
 
 ## Roadmap
 
-- [x] Listing component to show all the existing flash cards with titles and descriptions.
-- [x] Registration component to add and edit flash cards.
-- [x] Studying component to shuffle and flip the flash cards, showing title or description.
+- [x] Home page
+- [x] Plans page
+- [x] Products page
+- [x] Sign Up page
+- [x] Sign Up successful page
+- [x] Sign In page
+- [x] Sign In successful page
 
 See the [open issues](https://github.com/SilveiraGuilherme/go-training/issues) for a full list of proposed features (and known issues).
 
@@ -128,12 +112,6 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<!-- LICENSE -->
-
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
 <!-- CONTACT -->
 
 ## Author
@@ -146,7 +124,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Links
 
 - GitHub repository: [https://github.com/SilveiraGuilherme/go-training](https://github.com/SilveiraGuilherme/go-training)
-- Website: [flash-cards-app](https://silveiraguilherme.github.io/go-training/index.html)
+- Website: [go-training](https://silveiraguilherme.github.io/go-training/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,7 +139,5 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [stars-url]: https://github.com/SilveiraGuilherme/go-training/stargazers
 [issues-shield]: https://img.shields.io/github/issues/SilveiraGuilherme/go-training.svg?style=for-the-badge
 [issues-url]: https://github.com/SilveiraGuilherme/go-training/issues
-[license-shield]: https://img.shields.io/github/license/SilveiraGuilherme/go-training.svg?style=for-the-badge
-[license-url]: https://github.com/SilveiraGuilherme/go-training/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/jsguilherme
