@@ -14,7 +14,7 @@
 <br />
 
   <a href="https://silveiraguilherme.github.io/go-training/index.html">
-    <img src="./images/logos/go-training-logo.png" width="300px" alt="Go Training logo">
+    <img src="/images/logos/go-training-logo.png" width="300px" alt="Go Training logo">
   </a>
 
   <p align="center">
@@ -58,7 +58,7 @@
 
 ## About The Project
 
-[![Alt text](./images/go-training-website.png)](https://silveiraguilherme.github.io/go-training/index.html)
+[![Website page](/images/go-training-website.png)](https://silveiraguilherme.github.io/go-training/index.html)
 
 <!-- WEBSITE DESCRIPTION -->
 
