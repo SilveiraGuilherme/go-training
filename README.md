@@ -14,16 +14,16 @@
 <br />
 <br />
 
-  <a href="https://flash-cards-jsguilherme.netlify.app/">
-    <img src="./public/img/flash-cards-logo.png" width="300px" alt="Flash cards logo">
+  <a href="https://silveiraguilherme.github.io/go-training/index.html">
+    <img src="./images/logos/go-training-logo" width="300px" alt="Go Training logo">
   </a>
 
   <p align="center">
-    Flash Cards App
+    Go Training Fitness Center
     <br />
-    <a href="https://flash-cards-jsguilherme.netlify.app/">View Demo</a>
+    <a href="https://silveiraguilherme.github.io/go-training/index.html">View Demo</a>
     ·
-    <a href="https://github.com/SilveiraGuilherme/flash-cards-app/issues/new">Report Bug</a>
+    <a href="https://github.com/SilveiraGuilherme/go-training/issues/new">Report Bug</a>
   </p>
 </div>
 
@@ -60,7 +60,7 @@
 
 ## About The Project
 
-[![Alt text](./public/img/flash-cards-website.png)](https://flash-cards-jsguilherme.netlify.app/)
+[![Alt text](./public/img/flash-cards-website.png)](https://silveiraguilherme.github.io/go-training/index.html)
 
 <!-- WEBSITE DESCRIPTION -->
 
@@ -88,7 +88,7 @@ The application only works locally on previous Node versions. This one was made 
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/SilveiraGuilherme/flash-cards-app.git
+   git clone https://github.com/SilveiraGuilherme/go-training.git
    ```
 2. Install packages
    ```sh
@@ -111,7 +111,7 @@ The application only works locally on previous Node versions. This one was made 
 - [x] Registration component to add and edit flash cards.
 - [x] Studying component to shuffle and flip the flash cards, showing title or description.
 
-See the [open issues](https://github.com/SilveiraGuilherme/flash-cards-app/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/SilveiraGuilherme/go-training/issues) for a full list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
@@ -145,23 +145,23 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Links
 
-- GitHub repository: [https://github.com/SilveiraGuilherme/flash-cards-app](https://github.com/SilveiraGuilherme/flash-cards-app)
-- Website: [flash-cards-app](https://flash-cards-jsguilherme.netlify.app/)
+- GitHub repository: [https://github.com/SilveiraGuilherme/go-training](https://github.com/SilveiraGuilherme/go-training)
+- Website: [flash-cards-app](https://silveiraguilherme.github.io/go-training/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/SilveiraGuilherme/flash-cards-app.svg?style=for-the-badge
-[contributors-url]: https://github.com/SilveiraGuilherme/flash-cards-app/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/SilveiraGuilherme/flash-cards-app.svg?style=for-the-badge
-[forks-url]: https://github.com/SilveiraGuilherme/flash-cards-app/network/members
-[stars-shield]: https://img.shields.io/github/stars/SilveiraGuilherme/flash-cards-app.svg?style=for-the-badge
-[stars-url]: https://github.com/SilveiraGuilherme/flash-cards-app/stargazers
-[issues-shield]: https://img.shields.io/github/issues/SilveiraGuilherme/flash-cards-app.svg?style=for-the-badge
-[issues-url]: https://github.com/SilveiraGuilherme/flash-cards-app/issues
-[license-shield]: https://img.shields.io/github/license/SilveiraGuilherme/flash-cards-app.svg?style=for-the-badge
-[license-url]: https://github.com/SilveiraGuilherme/flash-cards-app/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/SilveiraGuilherme/go-training.svg?style=for-the-badge
+[contributors-url]: https://github.com/SilveiraGuilherme/go-training/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/SilveiraGuilherme/go-training.svg?style=for-the-badge
+[forks-url]: https://github.com/SilveiraGuilherme/go-training/network/members
+[stars-shield]: https://img.shields.io/github/stars/SilveiraGuilherme/go-training.svg?style=for-the-badge
+[stars-url]: https://github.com/SilveiraGuilherme/go-training/stargazers
+[issues-shield]: https://img.shields.io/github/issues/SilveiraGuilherme/go-training.svg?style=for-the-badge
+[issues-url]: https://github.com/SilveiraGuilherme/go-training/issues
+[license-shield]: https://img.shields.io/github/license/SilveiraGuilherme/go-training.svg?style=for-the-badge
+[license-url]: https://github.com/SilveiraGuilherme/go-training/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/jsguilherme
