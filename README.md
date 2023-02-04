@@ -62,7 +62,7 @@
 
 <!-- WEBSITE DESCRIPTION -->
 
-This is a fictitious gym's website called Go Training.
+This is a fictitious gym website developed as an assignment from the Frontend Development Trainee program offered by Brainnest.
 
 ### Built With
 
